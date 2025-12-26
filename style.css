@@ -22,6 +22,7 @@
     margin-bottom: 100px;
     margin-right: 100px;
 }
+
 h1 {
     color:#87DDFE;
 }
@@ -135,6 +136,10 @@ justify-content:center;}
 
 .flex-start{justify-content:flex-start;}
 
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
 .align-center{
     align-items: center;
     align-content: center;
@@ -215,6 +220,10 @@ padding-top: 60px;
     padding: 15px;
 }
 
+.euhlesboxla{
+  padding: 30px;
+  margin: 10px;
+}
 .gap-10{
     gap:15%;
 }
@@ -347,6 +356,7 @@ button:active {
 
 .blanc{
     color: #D9EBF2 ;
+    font-size: 15px;
 }
 
 /*SECTION EXPERIENCES*/
