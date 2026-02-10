@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     color: #000000;
+    font-family: "Calibri", sans-serif;
 }
 
 .section { 
@@ -46,7 +47,7 @@ header{
     flex: auto;
     display: inline-block;
     font-family:"Calibri", sans-serif;
-
+    box-shadow: 0px;
 }
 
 
@@ -104,6 +105,11 @@ justify-content:center;}
     padding: 20px;
 }
 
+.padding-top-70{
+ padding-top: 70px;
+}
+   
+
 .padding-bot-10{
     padding-bottom: 10px;
 }
@@ -133,8 +139,12 @@ padding-top: 60px;
     margin-top: 20px;
 }
 
+.margin-bottom-100{
+    margin-bottom: 100px;
+}
+
 .margin-left{
-    margin-left: 540px;
+    margin-left: 40px;
 }
 
 .margin-left-50{
@@ -144,10 +154,16 @@ padding-top: 60px;
     margin-left: 100px;
 }
 .margin-right{
-    margin-right: 30px;
+    margin-right: 300px;
+}
+.margin-right-50{
+    margin-right: 50px;
 }
 .margin-right-200{
     margin-right: 200px;
+}
+.gap-10{
+    gap: 10px;
 }
 .gap-20{
     gap: 20px;
@@ -164,10 +180,7 @@ padding-top: 60px;
     padding: 15px;
 }
 
-.euhlesboxla{
-  padding: 30px;
-  margin: 10px;
-}
+
 .gap-10{
     gap:15%;
 }
@@ -177,7 +190,10 @@ padding-top: 60px;
 .w100 {
     width: 100%;
 }
- 
+
+.w80 {
+    width: 80%;
+}
 .w48 {
     width: 48%;
 }
@@ -202,6 +218,9 @@ padding-top: 60px;
     width: 25%;
 }
  
+.w20 {
+    width: 20%;
+}
 .w10 {
     width: 10%;
 }
@@ -214,3 +233,74 @@ margin-left: auto;
 margin-right: auto;
 }
 
+/*Background*/
+.bg-bleu{
+    background-color: #D9EBF2;
+}
+.bg-bleu-fonce{
+    background-color: #6776B6;
+}
+.bord{
+    box-shadow: 12px 12px 0px #000000;
+}
+
+.bg-violet{
+    background-color: #A786DC;
+}
+/*CARTE*/
+/* From Uiverse.io by vaibhavchandranv */ 
+.card {
+  font-family: Montserrat, sans-serif;
+  width: 300px;
+  height: 250px;
+  translate: -6px -6px;
+  background: #A786DC;
+  border: 3px solid #000000;
+  box-shadow: 12px 12px 0 #000000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.head {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  width: 100%;
+  height: 32px;
+  background: #ffffff;
+  padding: 5px 12px;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.content {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.button {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 3px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  font-weight: 750;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.button:hover {
+  translate: 1.5px 1.5px;
+  box-shadow: 1.5px 1.5px 0 #000000;
+  background: #D9EBF2;
+}
+
+.button:active {
+  translate: 3px 3px;
+  box-shadow: 0 0 0 #000000;
+}
+
+.card:hover {
+  translate: -6px;
+}
