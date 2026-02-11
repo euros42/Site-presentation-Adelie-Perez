@@ -138,15 +138,22 @@ padding-top: 60px;
 .margin-top-20{
     margin-top: 20px;
 }
-
+.margin-top-50{
+    margin-top: 50px;
+}
 .margin-bottom-100{
     margin-bottom: 100px;
+}
+.margin-bottom-50{
+    margin-bottom: 50px;
 }
 
 .margin-left{
     margin-left: 40px;
 }
-
+.margin-left-bouton{
+    margin-left: 840px;
+}
 .margin-left-50{
     margin-left: 50px;
 }
@@ -193,6 +200,9 @@ padding-top: 60px;
 
 .w80 {
     width: 80%;
+}
+.w60{
+    width: 60%;
 }
 .w48 {
     width: 48%;
@@ -246,6 +256,81 @@ margin-right: auto;
 
 .bg-violet{
     background-color: #A786DC;
+
+}
+
+/*Carte formation*/
+.carte {
+  font-family: Montserrat, sans-serif;
+  width: 1010px;
+  height: 140px;
+  translate: -6px -6px;
+  background: #A786DC;
+  border: 3px solid #000000;
+  box-shadow: 12px 12px 0 #000000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.tete {
+  font-family: Montserrat, sans-serif;
+  font-size: 14px;
+  font-weight: 900;
+  width: 100%;
+  height: 32px;
+  background: #ffffff;
+  padding: 5px 12px;
+  color: #000000;
+  border-bottom: 3px solid #000000;
+}
+
+.contenu {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.carte:hover {
+  translate: -6px;
+}
+
+.bouton {
+  padding: 5px 10px;
+  margin-top: 10px;
+  border: 3px solid #000000;
+  box-shadow: 3px 3px 0 #000000;
+  font-weight: 750;
+  background: #ffffff;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.bouton:hover {
+  translate: 1.5px 1.5px;
+  box-shadow: 1.5px 1.5px 0 #000000;
+  background: #D9EBF2;
+}
+
+.bouton:active {
+  translate: 3px 3px;
+  box-shadow: 0 0 0 #000000;
+}
+
+/*CARTE COMPETENCES*/
+
+.carte2 {
+  font-family: Montserrat, sans-serif;
+  width: 300px;
+  height: 140px;
+  translate: -6px -6px;
+  background: #A786DC;
+  border: 3px solid #000000;
+  box-shadow: 12px 12px 0 #000000;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+
+.carte2:hover {
+  translate: -6px;
 }
 /*CARTE*/
 /* From Uiverse.io by vaibhavchandranv */ 
