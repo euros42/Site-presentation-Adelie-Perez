@@ -1,6 +1,6 @@
-*{
+* {
     box-sizing: border-box;
-    padding:0;
+    padding: 0;
     margin: 0;
     text-decoration: none;
     list-style: none;
@@ -8,7 +8,12 @@
     font-family: "Calibri", sans-serif;
 }
 
-.section { 
+i {
+    font-size: 20px;
+    color: #000000;
+}
+
+.section {
     margin-left: 100px;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -23,69 +28,79 @@
 }
 
 h1 {
-    color:#000000;
+    color: #000000;
 }
 
 /*TITRES DE SECTION*/
-h2  {
+h2 {
     text-align: center;
-    color:#000000;
+    color: #000000;
     font-family: "Calibri", sans-serif;
     font-size: 50px;
     font-weight: 100;
 }
 
-h3{
+h3 {
     text-align: center;
 }
 
 /*HEADER*/
 
-header{
+header {
     background-color: #ffffff;
-    font-size:16px;
+    font-size: 16px;
     flex: auto;
     display: inline-block;
-    font-family:"Calibri", sans-serif;
+    font-family: "Calibri", sans-serif;
     box-shadow: 0px;
 }
 
 
 /*CLASSES FLEX*/
 
-.align-center{
+.align-center {
     align-items: center;
     align-content: center;
     text-align: center;
 }
 
 .flex {
-display:flex;
+    display: flex;
 }
 
-.flex-wrap{
+.flex-wrap {
     flex-wrap: wrap;
 }
 
 .space-between {
-justify-content:space-between ;} 
-
-.space-around{ justify-content:space-around;}
-
-.space-evenly{justify-content:space-evenly;}
-
-.justify-center {
-justify-content:center;}
-
-.flex-end{justify-content:flex-end;}
-
-.flex-start{justify-content:flex-start;}
-
-.flex-wrap{
-  flex-wrap: wrap;
+    justify-content: space-between;
 }
 
-.align-center{
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.align-center {
     align-items: center;
     align-content: center;
     text-align: center;
@@ -93,103 +108,115 @@ justify-content:center;}
 
 /*PADDING ET MARGIN*/
 
-.padding{
+.padding {
     padding: 5px;
 }
 
-.padding-10{
+.padding-10 {
     padding: 10px;
 }
 
-.padding-20{
+.padding-20 {
     padding: 20px;
 }
 
-.padding-top-70{
- padding-top: 70px;
+.padding-top-70 {
+    padding-top: 70px;
 }
-   
 
-.padding-bot-10{
+
+.padding-bot-10 {
     padding-bottom: 10px;
 }
 
-.padding-bot-50{
+.padding-bot-50 {
     padding-bottom: 50px;
 }
 
 
-.padding-top-60{
-padding-top: 60px;
+.padding-top-60 {
+    padding-top: 60px;
 }
 
-.padding-top-100{
+.padding-top-100 {
     padding-top: 100px;
 }
 
-.padding-top-20{
+.padding-top-20 {
     padding-top: 20px;
 }
 
-.margin-top-100{
+.margin-top-100 {
     margin-top: 100px;
 }
 
-.margin-top-20{
+.margin-top-20 {
     margin-top: 20px;
 }
-.margin-top-50{
+
+.margin-top-50 {
     margin-top: 50px;
 }
-.margin-bottom-100{
+
+.margin-bottom-100 {
     margin-bottom: 100px;
 }
-.margin-bottom-50{
+
+.margin-bottom-50 {
     margin-bottom: 50px;
 }
 
-.margin-left{
+.margin-left {
     margin-left: 40px;
 }
-.margin-left-bouton{
+
+.margin-left-bouton {
     margin-left: 840px;
 }
-.margin-left-50{
+
+.margin-left-50 {
     margin-left: 50px;
 }
-.petit-margin-left{
+
+.petit-margin-left {
     margin-left: 100px;
 }
-.margin-right{
+
+.margin-right {
     margin-right: 300px;
 }
-.margin-right-50{
+
+.margin-right-50 {
     margin-right: 50px;
 }
-.margin-right-200{
+
+.margin-right-200 {
     margin-right: 200px;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
-.gap-20{
+
+.gap-20 {
     gap: 20px;
 }
 
-.gap-50{
-    gap:50px
+.gap-50 {
+    gap: 50px
 }
-.padding{
+
+.padding {
     padding: 40px;
 }
 
-.padding-15{
+.padding-15 {
     padding: 15px;
 }
 
 
-.gap-10{
-    gap:15%;
+.gap-10 {
+    gap: 15%;
 }
 
 /*Classes largeurs*/
@@ -201,191 +228,234 @@ padding-top: 60px;
 .w80 {
     width: 80%;
 }
-.w60{
+
+.w60 {
     width: 60%;
 }
+
 .w48 {
     width: 48%;
 }
- 
+
 .w50 {
     width: 50%;
 }
- 
+
 .w40 {
     width: 40%;
 }
- 
+
 .w33 {
     width: 33%;
 }
- 
+
 .w30 {
     width: 30%;
 }
- 
+
 .w25 {
     width: 25%;
 }
- 
+
 .w20 {
     width: 20%;
 }
+
 .w10 {
     width: 10%;
 }
 
 .container-1000 {
-max-width: 1000px;
-margin: auto;
-width: 100%;
-margin-left: auto;
-margin-right: auto;
+    max-width: 1000px;
+    margin: auto;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
+.taille{
+font-size: 14px;
+}
+.taille-petit{ font-size: 12px; }
 /*Background*/
-.bg-bleu{
+.bg-bleu {
     background-color: #D9EBF2;
 }
-.bg-bleu-fonce{
+
+.bg-bleu-fonce {
     background-color: #6776B6;
 }
-.bord{
+
+.bord {
     box-shadow: 12px 12px 0px #000000;
 }
 
-.bg-violet{
+.bg-violet {
     background-color: #A786DC;
 
 }
 
 /*Carte formation*/
 .carte {
-  font-family: Montserrat, sans-serif;
-  width: 1010px;
-  height: 140px;
-  translate: -6px -6px;
-  background: #A786DC;
-  border: 3px solid #000000;
-  box-shadow: 12px 12px 0 #000000;
-  overflow: hidden;
-  transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+    width: 1010px;
+    height: 140px;
+    translate: -6px -6px;
+    background: #A786DC;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .tete {
-  font-family: Montserrat, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  width: 100%;
-  height: 32px;
-  background: #ffffff;
-  padding: 5px 12px;
-  color: #000000;
-  border-bottom: 3px solid #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    width: 100%;
+    height: 32px;
+    background: #ffffff;
+    padding: 5px 12px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
 }
 
 .contenu {
-  padding: 8px 12px;
-  font-size: 14px;
-  font-weight: 600;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
 }
+
 .carte:hover {
-  translate: -6px;
+    translate: -6px;
 }
 
 .bouton {
-  padding: 5px 10px;
-  margin-top: 10px;
-  border: 3px solid #000000;
-  box-shadow: 3px 3px 0 #000000;
-  font-weight: 750;
-  background: #ffffff;
-  transition: all 0.3s ease;
-  cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0 #000000;
+    font-weight: 750;
+    background: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .bouton:hover {
-  translate: 1.5px 1.5px;
-  box-shadow: 1.5px 1.5px 0 #000000;
-  background: #D9EBF2;
+    translate: 1.5px 1.5px;
+    box-shadow: 1.5px 1.5px 0 #000000;
+    background: #D9EBF2;
 }
 
 .bouton:active {
-  translate: 3px 3px;
-  box-shadow: 0 0 0 #000000;
+    translate: 3px 3px;
+    box-shadow: 0 0 0 #000000;
 }
 
 /*CARTE COMPETENCES*/
 
 .carte2 {
-  font-family: Montserrat, sans-serif;
-  width: 300px;
-  height: 140px;
-  translate: -6px -6px;
-  background: #A786DC;
-  border: 3px solid #000000;
-  box-shadow: 12px 12px 0 #000000;
-  overflow: hidden;
-  transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+    width: 300px;
+    height: 140px;
+    translate: -6px -6px;
+    background: #A786DC;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .carte2:hover {
-  translate: -6px;
+    translate: -6px;
 }
+
+.carte3 {
+    font-family: Montserrat, sans-serif;
+    width: 300px;
+    height: 140px;
+    translate: -6px -6px;
+    background: #ffffff;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.carte3:hover {
+    translate: -6px;
+}
+
+.carte4 {
+    font-family: Montserrat, sans-serif;
+    width: 300px;
+    height: 140px;
+    translate: -6px -6px;
+    background: #6776B6;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.carte4:hover {
+    translate: -6px;
+}
+
 /*CARTE*/
-/* From Uiverse.io by vaibhavchandranv */ 
+/* From Uiverse.io by vaibhavchandranv */
 .card {
-  font-family: Montserrat, sans-serif;
-  width: 300px;
-  height: 250px;
-  translate: -6px -6px;
-  background: #A786DC;
-  border: 3px solid #000000;
-  box-shadow: 12px 12px 0 #000000;
-  overflow: hidden;
-  transition: all 0.3s ease;
+    font-family: Montserrat, sans-serif;
+    width: 300px;
+    height: 250px;
+    translate: -6px -6px;
+    background: #A786DC;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
 }
 
 .head {
-  font-family: Montserrat, sans-serif;
-  font-size: 14px;
-  font-weight: 900;
-  width: 100%;
-  height: 32px;
-  background: #ffffff;
-  padding: 5px 12px;
-  color: #000000;
-  border-bottom: 3px solid #000000;
+    font-family: Montserrat, sans-serif;
+    font-size: 14px;
+    font-weight: 900;
+    width: 100%;
+    height: 32px;
+    background: #ffffff;
+    padding: 5px 12px;
+    color: #000000;
+    border-bottom: 3px solid #000000;
 }
 
 .content {
-  padding: 8px 12px;
-  font-size: 14px;
-  font-weight: 600;
+    padding: 8px 12px;
+    font-size: 14px;
+    font-weight: 600;
 }
 
 .button {
-  padding: 5px 10px;
-  margin-top: 10px;
-  border: 3px solid #000000;
-  box-shadow: 3px 3px 0 #000000;
-  font-weight: 750;
-  background: #ffffff;
-  transition: all 0.3s ease;
-  cursor: pointer;
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0 #000000;
+    font-weight: 750;
+    background: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
 .button:hover {
-  translate: 1.5px 1.5px;
-  box-shadow: 1.5px 1.5px 0 #000000;
-  background: #D9EBF2;
+    translate: 1.5px 1.5px;
+    box-shadow: 1.5px 1.5px 0 #000000;
+    background: #D9EBF2;
 }
 
 .button:active {
-  translate: 3px 3px;
-  box-shadow: 0 0 0 #000000;
+    translate: 3px 3px;
+    box-shadow: 0 0 0 #000000;
 }
 
 .card:hover {
-  translate: -6px;
+    translate: -6px;
 }
