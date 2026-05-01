@@ -295,6 +295,45 @@ font-size: 14px;
 
 }
 
+/*Carte projets*/
+.card2 {
+    font-family: Montserrat, sans-serif;
+    width: 350px;
+    height: 180px;
+    translate: -6px -6px;
+    background: #6776B6;
+    border: 3px solid #000000;
+    box-shadow: 12px 12px 0 #000000;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.card2:hover {
+    translate: -6px;
+}
+
+.bouton2 {
+    padding: 5px 10px;
+    margin-top: 10px;
+    border: 3px solid #000000;
+    box-shadow: 3px 3px 0 #000000;
+    font-weight: 750;
+    background: #ffffff;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.bouton2:hover {
+    translate: 1.5px 1.5px;
+    box-shadow: 1.5px 1.5px 0 #000000;
+    background: #D9EBF2;
+}
+
+.bouton2:active {
+    translate: 3px 3px;
+    box-shadow: 0 0 0 #000000;
+}
+
 /*Carte formation*/
 .carte {
     font-family: Montserrat, sans-serif;
