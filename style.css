@@ -53,6 +53,8 @@ header {
     display: inline-block;
     font-family: "Calibri", sans-serif;
     box-shadow: 0px;
+    position: fixed ;
+    width: 100%;
 }
 
 
@@ -301,7 +303,7 @@ font-size: 14px;
     width: 350px;
     height: 180px;
     translate: -6px -6px;
-    background: #6776B6;
+    background: #D9EBF2;
     border: 3px solid #000000;
     box-shadow: 12px 12px 0 #000000;
     overflow: hidden;
@@ -312,27 +314,6 @@ font-size: 14px;
     translate: -6px;
 }
 
-.bouton2 {
-    padding: 5px 10px;
-    margin-top: 10px;
-    border: 3px solid #000000;
-    box-shadow: 3px 3px 0 #000000;
-    font-weight: 750;
-    background: #ffffff;
-    transition: all 0.3s ease;
-    cursor: pointer;
-}
-
-.bouton2:hover {
-    translate: 1.5px 1.5px;
-    box-shadow: 1.5px 1.5px 0 #000000;
-    background: #D9EBF2;
-}
-
-.bouton2:active {
-    translate: 3px 3px;
-    box-shadow: 0 0 0 #000000;
-}
 
 /*Carte formation*/
 .carte {
@@ -370,8 +351,6 @@ font-size: 14px;
 }
 
 .bouton {
-    padding: 5px 10px;
-    margin-top: 10px;
     border: 3px solid #000000;
     box-shadow: 3px 3px 0 #000000;
     font-weight: 750;
