@@ -29,6 +29,7 @@ i {
 
 h1 {
     color: #000000;
+    text-align: center;
 }
 
 /*TITRES DE SECTION*/
@@ -43,7 +44,15 @@ h2 {
 h3 {
     text-align: center;
 }
+/*ECRITURE*/
 
+.po{
+    font-size: 18px;
+}
+
+.dix{
+    font-size: 10px;
+}
 /*HEADER*/
 
 header {
@@ -135,6 +144,9 @@ header {
     padding-bottom: 50px;
 }
 
+.padding-bot-100{
+    padding-bottom: 100px;
+}
 
 .padding-top-60 {
     padding-top: 60px;
